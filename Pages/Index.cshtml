@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="container text-center mt-5">
+
+    <div class="card shadow-lg border-0 rounded-4 py-5 bg-light">
+        <div class="card-body">
+
+            <h1 class="display-4 fw-bold text-primary mb-3">Система управления банком</h1>
+
+            <p class="lead text-muted mb-4 px-3">
+                Добро пожаловать в веб-приложение на ASP.NET Core Razor Pages!
+                Здесь вы можете удобно управлять счетами клиентов, просматривать их баланс и историю.
+            </p>
+
+            <a asp-page="/BankAccounts/Index" class="btn btn-primary btn-lg shadow px-5 rounded-pill">
+                Перейти к счетам
+            </a>
+
+        </div>
+    </div>
+
+</div>
